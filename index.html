@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kartik Patil | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Welcome You....!!</div>
+    <ul class="nav-menu">
+      <li><a href="#home"><span>🏠</span> Home</a></li>
+      <li><a href="#about"><span>🙋‍♂️</span> About</a></li>
+      <li><a href="#skills"><span>🛠️</span> Skills</a></li>
+      <li><a href="#projects"><span>💼</span> Projects</a></li>
+      <li><a href="#contact"><span>📞</span> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <h1>Hello, I'm <span>Kartik Patil</span></h1>
+      <h2>"Aspiring Full-Stack Developer with a Passion for Web Development"</h2>
+      <a href="#about" class="btn">Explore More</a>
+      <a href="resume.pdf" class="btn-resume" download>
+  ⬇️ Download  My Resume
+</a>
+
+
+    </div>
+    <div class="avatar">
+      <img src="assests/avatar.png" alt="My Avatar" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">👋 About Me</h2>
+    <div class="about-container">
+      <p>
+        I'm <span class="highlight">Kartik Patil</span> from <span class="highlight">Bengaluru, India</span> – an MCA graduate (74.5%) from 
+        <strong>Rani Channamma University</strong>. I bring a strong foundation in 
+        <span class="highlight">Full Stack Developer, Web Development</span>, <span class="highlight">Java Developer</span>, and <span class="highlight">Machine Learning</span>.
+      </p>
+      <br />
+      <p>
+        I completed an internship at <strong>Infynow Software Solutions LLP</strong>, where I worked on modern web design and development projects.
+      </p>
+      <br />
+      <p>
+        I'm passionate about building real-world solutions that create meaningful impact. I thrive on learning, solving problems, and pushing boundaries with code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">🛠️ Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Core Java</li>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>MySQL</li>
+      <li>Python</li>
+      <li>.NET</li>
+      <li>C Programming</li>
+      <li>Machine Learning</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">💼 Projects</h2>
+    <ul>
+      <li><strong>1. Birds Sound Identification using Machine Learning</strong><br>
+        Developed a system to identify bird species based on their sound using ML algorithms. It supports biodiversity research and ecosystem monitoring.
+      </li>
+      <li><strong>2. Agricultural Equipments Rental System</strong><br>
+        A web app that helps farmers rent equipment at affordable prices. It improves accessibility and supports the farming community.
+      </li>
+    </ul>
+    <p><strong>🔗 Paper Publication:</strong>
+      <a href="https://ijrpr.com/uploads/V5ISSUE10/IJRPR33992.pdf" target="_blank" style="color:#00faff;font-weight:bold;">
+        Published in International Journal of Research Publication and Reviews (Sep 2024)
+      </a>
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">📞 Contact Me</h2>
+    <form action="https://formsubmit.co/kartikpatil1911@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <!-- Hidden Config -->
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="thankyou.html" />
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
